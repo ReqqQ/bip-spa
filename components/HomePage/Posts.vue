@@ -1,11 +1,14 @@
 <template>
-    <div class="callout callout-danger">
+    <div class="callout callout-danger mb-2">
         <div>
-            {{post.Title.slice(0,95)+'...'}}
+            <p class="h5">  {{post.Title.slice(0,60)+'...'}}</p>
         </div>
-        <div class="mt-4 d-flex justify-content-between">
+        <div>
+            <small class="text-muted">{{post.Title.slice(0,210)+'...'}}</small>
+        </div>
+        <div class="mt-2 d-flex justify-content-between align-items-end">
             <button class="btn btn-danger ls-border-radius">Czytaj więcej</button>
-            <span>Admin | 2021-11-23</span>
+            <small class="text-muted">Admin | 2021-11-23</small>
         </div>
     </div>
 </template>
@@ -27,6 +30,7 @@ export default {
     border-left-width: 5px;
     border-radius: 3px 24px 24px 3px;
     background-color: #e6f5ff;
+    box-shadow: inset -5px 0 10px 0 #f8fbff;
 }
 .callout-danger{
     border-left-color: #d9534f;

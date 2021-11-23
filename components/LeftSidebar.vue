@@ -4,8 +4,9 @@
         <img width="100px" src="@/assets/img/bip.png" class="img-fluid" alt="bip">
     </div>
     <div class="d-flex h-50 flex-column justify-content-evenly align-items-center">
-        <i class="bi bi-list  ls-icon-active"/>
-        <i class="bi bi-search ls-icon"/>
+        <NuxtLink to="/"> <i class="bi bi-list  ls-icon-active"/></NuxtLink>
+        <NuxtLink to="/search">  <i class="bi bi-search ls-icon"/></NuxtLink>
+
         <i class="bi bi-book ls-icon"/>
         <i class="bi bi-envelope ls-icon"/>
         <i class="bi bi-info-circle ls-icon"/>
