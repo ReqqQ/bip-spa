@@ -17,6 +17,10 @@ export default defineNuxtConfig({
                 rel: 'stylesheet',
                 style: 'text/css',
                 href: 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css'
+            },
+            {
+                rel: 'stylesheet',
+                href: 'http://fonts.cdnfonts.com/css/sofia-pro'
             }
         ],
     }

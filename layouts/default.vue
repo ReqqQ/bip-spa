@@ -16,16 +16,19 @@ export default {
 </script>
 <style>
 .ls {
-    box-shadow: 0 0 30px #147aff1a;
+    box-shadow: 0 0 20px 0px #c5d2e3
 }
 
 .ls-border-radius {
     border-radius: 24px;
 }
+body{
+    font-family: 'Sofia Pro';
+}
 </style>
 <style scoped>
 
 .m-background {
-    background-color: #1479ff1a;
+    background-color: #f8fbff;
 }
 </style>
