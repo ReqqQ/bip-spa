@@ -1,12 +1,12 @@
 <template>
     <div class="d-flex flex-column">
         <RightSidebarDepartments class="flex-grow-0"/>
-        <div class="row  pt-4 flex-grow-0">
+        <div  v-if="posts" class="row  pt-4 pb-4 flex-grow-0">
             <div class="col-6 ">
-                <RightSidebarDepartments/>
+                <RightSidebarPosts :posts="posts.zam"/>
             </div>
             <div class="col-6">
-                <RightSidebarDepartments/>
+                <RightSidebarPosts :posts="posts.work"/>
             </div>
         </div>
         <RightSidebarContact class="flex-grow-1"/>
@@ -15,7 +15,10 @@
 
 <script>
 export default {
-    name: "RightSidebar"
+    name: "RightSidebar",
+    props: {
+        posts: Object
+    }
 }
 </script>
 

@@ -1,9 +1,9 @@
 <template>
     <div class="row h-100 pt-5 pe-4">
         <div class="col-6 px-5 d-flex mb-1 flex-column justify-content-between">
-            <HomePagePosts v-if="posts['news']" v-for="post in posts['news'].slice(0,5)" :key="post.ID" :post="post"/>
+            <HomePagePosts v-if="posts.news" v-for="post in posts['news'].slice(0,5)" :key="post.ID" :post="post"/>
         </div>
-        <RightSidebar class="col-6"/>
+        <RightSidebar :posts="posts" class="col-6"/>
     </div>
 </template>
 
