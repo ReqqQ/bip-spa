@@ -3,10 +3,10 @@
         <RightSidebarDepartments class="flex-grow-0"/>
         <div  v-if="posts" class="row  pt-4 pb-4 flex-grow-0">
             <div class="col-6 ">
-                <RightSidebarPosts :posts="posts.zam"/>
+                <RightSidebarPosts :posts="posts.zam" boxTitle="Zamówienia publiczne"/>
             </div>
             <div class="col-6">
-                <RightSidebarPosts :posts="posts.work"/>
+                <RightSidebarPosts :posts="posts.work" boxTitle="Praca"/>
             </div>
         </div>
         <RightSidebarContact class="flex-grow-1"/>

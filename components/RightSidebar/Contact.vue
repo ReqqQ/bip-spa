@@ -1,6 +1,6 @@
 <template>
     <div class="bg-white p-3 ls-border-radius ls">
-       Test
+       NOPE !
     </div>
 </template>
 
