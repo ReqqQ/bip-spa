@@ -10,7 +10,7 @@
                 </div>
                 <div class="mt-2 d-flex justify-content-evenly align-items-end">
                     <small class="text-muted ">  <i class="bi bi-person"></i>  Admin </small>
-                    <small class="text-muted ">  <i class="bi bi-eye"></i> 50 </small>
+                    <small class="text-muted ">  <i class="bi bi-eye"></i> {{Math.floor(Math.random() * 10) + 1}} </small>
                     <small class="text-muted ">  <i class="bi bi-clock"></i>   {{post.CreatedAt}} </small>
                 </div>
             </div>
@@ -19,7 +19,6 @@
 </template>
 
 <script lang="ts">
-import {string} from "postcss-selector-parser";
 
 export default {
     name: "Posts",
