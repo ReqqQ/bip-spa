@@ -14,11 +14,6 @@ export default {
   name: "index",
   props: {
     images: Object
-  },
-  methods:{
-    getImageFromUrl(imageUrl:string){
-      return image
-    }
   }
 }
 </script>

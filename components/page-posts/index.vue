@@ -1,4 +1,5 @@
 <template>
+  <div class="col-12">
     <div class="callout callout-danger mb-2">
         <div>
             <p class="h5">  {{post.Title.slice(0,60)+'...'}}</p>
@@ -11,6 +12,7 @@
             <small class="text-muted">Admin | 2021-11-23</small>
         </div>
     </div>
+  </div>
 </template>
 
 <script>
