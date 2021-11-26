@@ -9,7 +9,7 @@
         <PagePostsSimple :posts="posts.work" boxTitle="Praca"/>
       </div>
     </div>
-    <SidebarRightEmployees class="flex-grow-1"/>
+    <Employess class="flex-grow-1"/>
   </div>
 </template>
 
