@@ -15,7 +15,7 @@
 
 <script>
 export default {
-    name: "Posts",
+    name: "PagePosts",
     props: {
         post: Object
     }

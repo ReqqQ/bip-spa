@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid vh-100 m-background">
         <div class="row h-100">
-            <LeftSidebar class="col-1 bg-white ls"/>
+            <SidebarLeft class="col-1 bg-white ls"/>
             <div class="col-11">
                 <slot/>
             </div>

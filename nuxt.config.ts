@@ -23,5 +23,6 @@ export default defineNuxtConfig({
                 href: 'http://fonts.cdnfonts.com/css/sofia-pro'
             }
         ],
-    }
+    },
+
 })
