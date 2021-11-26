@@ -1,9 +1,6 @@
 <template>
-  <div class="col-12">
     <div class="callout callout-danger mb-2">
-        <div>
-            <p class="h5">  {{post.Title.slice(0,60)+'...'}}</p>
-        </div>
+      <PagePostsTitle :isExpand="true" :postTitle="post.Title" />
         <div>
             <small class="text-muted">{{post.Title.slice(0,210)+'...'}}</small>
         </div>
@@ -12,7 +9,6 @@
             <small class="text-muted">Admin | 2021-11-23</small>
         </div>
     </div>
-  </div>
 </template>
 
 <script>

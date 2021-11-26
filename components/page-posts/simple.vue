@@ -1,10 +1,10 @@
 <template>
   <div class="bg-white ls-border-radius ls h-100">
-    <PagePostsTitleSimple :boxTitle="boxTitle"/>
+    <PagePostsTitle :isBoxTitle="true" :boxTitle="boxTitle"/>
     <div class="p-3">
       <div v-for="post in posts" :key="post.ID" class="mb-4">
-        <PagePostsTitlePost :postTitle="post.Title"/>
-        <PagePostsSimpleInformation :createdAt="post.CreatedAt"/>
+        <PagePostsTitle :isSimple="true" :postTitle="post.Title"/>
+        <PagePostsStats :createdAt="post.CreatedAt"/>
       </div>
     </div>
   </div>

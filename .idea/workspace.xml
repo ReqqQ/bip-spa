@@ -6,9 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="8de86697-adc0-44b7-84f0-994e656a80dc" name="Changes" comment="refactor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/image/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/image/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/page-posts/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/page-posts/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/page-posts/simple.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/page-posts/simple.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page-posts/simple/information.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/page-posts/stats.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page-posts/title/post.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page-posts/title/simple.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuxt.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Vue Single File Component" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -49,8 +53,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\bip-spa\components\page-posts\title" />
       <recent name="E:\bip-spa\components\page-posts" />
+      <recent name="E:\bip-spa\components\page-posts\title" />
       <recent name="E:\bip-spa\components\page-posts\simple" />
     </key>
   </component>
@@ -73,7 +77,21 @@
       <option name="project" value="LOCAL" />
       <updated>1637959539756</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="refactor">
+      <created>1637966307586</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1637966307586</updated>
+    </task>
+    <task id="LOCAL-00003" summary="refactor">
+      <created>1637966312738</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1637966312738</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
