@@ -1,15 +1,13 @@
 <template>
   <div class="d-flex flex-column">
     <Image class="flex-grow-0" :images="departmentsImages"/>
-    <div v-if="posts" class="row  pt-4 pb-4 flex-grow-0">
-      <div class="col-6 ">
-        <PagePostsSimple :posts="posts.zam" boxTitle="Zamówienia publiczne"/>
-      </div>
-      <div class="col-6">
-        <PagePostsSimple :posts="posts.work" boxTitle="Praca"/>
-      </div>
+    <div class="row  pt-4 pb-4 flex-grow-0">
+      <PageZone postsType="zam" :posts="posts" :isSimple="true" boxTitle="Zamówienia publiczne"/>
+      <PageZone postsType="work" :posts="posts" :isSimple="true" boxTitle="Praca"/>
     </div>
-    <Employess class="flex-grow-1"/>
+    <div class="row flex-grow-1">
+      <PageZone :employess="{}"/>
+    </div>
   </div>
 </template>
 

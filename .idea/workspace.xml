@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8de86697-adc0-44b7-84f0-994e656a80dc" name="Changes" comment="refactor">
+      <change afterPath="$PROJECT_DIR$/components/page-posts/header.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Sidebar/Right.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Sidebar/Right.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/employess/index.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/components/page-posts/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/page-posts/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/page-posts/simple.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/page-posts/simple.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/page-posts/simple/information.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/page-posts/stats.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/page-posts/title/post.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/page-posts/title/simple.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nuxt.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page-posts/simple.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page-posts/stats.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/page-posts/stats.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page-posts/title.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,13 +27,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Vue Single File Component" />
         <option value="TypeScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="21SrlkRmBwB8flHqhvTltM5PvIl" />
   <component name="ProjectViewState">
@@ -53,9 +64,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\bip-spa\components\page-zone" />
+      <recent name="E:\bip-spa\components" />
+      <recent name="E:\bip-spa\components\page-zone\type" />
       <recent name="E:\bip-spa\components\page-posts" />
       <recent name="E:\bip-spa\components\page-posts\title" />
-      <recent name="E:\bip-spa\components\page-posts\simple" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -69,6 +82,8 @@
       <workItem from="1637945486723" duration="3500000" />
       <workItem from="1637949248815" duration="86000" />
       <workItem from="1637956102052" duration="64000" />
+      <workItem from="1638021702430" duration="5111000" />
+      <workItem from="1638029864459" duration="21319000" />
     </task>
     <task id="LOCAL-00001" summary="refactor">
       <created>1637959539756</created>
@@ -91,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637966312738</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="refactor">
+      <created>1637971192647</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1637971192647</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +129,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactor" />

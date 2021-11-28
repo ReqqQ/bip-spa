@@ -1,9 +1,7 @@
 <template>
     <div class="row h-100 pt-5 pe-4">
-        <div class="col-6 px-5 d-flex mb-1 flex-column justify-content-between">
-            <PagePosts v-if="posts.news" v-for="post in posts['news'].slice(0,5)" :key="post.ID" :post="post"/>
-        </div>
-        <SidebarRight :posts="posts" class="col-6"/>
+      <PageZone postsType="news" :posts="posts"/>
+      <SidebarRight :posts="posts" class="col-6"/>
     </div>
 </template>
 
