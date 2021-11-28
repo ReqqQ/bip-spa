@@ -1,7 +1,7 @@
 <template>
     <div class="row h-100 pt-5 pe-4">
       <PageZone postsType="news" :posts="posts"/>
-      <SidebarRight :posts="posts" class="col-6"/>
+<!--      <SidebarRight :posts="posts" class="col-6"/>-->
     </div>
 </template>
 

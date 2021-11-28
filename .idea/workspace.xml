@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8de86697-adc0-44b7-84f0-994e656a80dc" name="Changes" comment="refactor">
-      <change afterPath="$PROJECT_DIR$/components/page-posts/header.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Sidebar/Right.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Sidebar/Right.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/employess/index.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/components/page-posts/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/page-posts/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/page-posts/simple.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/page-posts/stats.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/page-posts/stats.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/page-posts/title.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page-zone/posts.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/page-zone/posts.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,11 +58,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\bip-spa\layouts" />
+      <recent name="E:\bip-spa\layouts\posts" />
       <recent name="E:\bip-spa\components\page-zone" />
       <recent name="E:\bip-spa\components" />
       <recent name="E:\bip-spa\components\page-zone\type" />
-      <recent name="E:\bip-spa\components\page-posts" />
-      <recent name="E:\bip-spa\components\page-posts\title" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -83,7 +77,11 @@
       <workItem from="1637949248815" duration="86000" />
       <workItem from="1637956102052" duration="64000" />
       <workItem from="1638021702430" duration="5111000" />
-      <workItem from="1638029864459" duration="21319000" />
+      <workItem from="1638029864459" duration="21349000" />
+      <workItem from="1638097100987" duration="325000" />
+      <workItem from="1638103582489" duration="609000" />
+      <workItem from="1638108007863" duration="594000" />
+      <workItem from="1638109998924" duration="7023000" />
     </task>
     <task id="LOCAL-00001" summary="refactor">
       <created>1637959539756</created>
@@ -113,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637971192647</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="refactor">
+      <created>1638069358567</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638069358567</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

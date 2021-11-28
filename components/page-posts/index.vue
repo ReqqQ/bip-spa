@@ -1,13 +1,17 @@
 <template>
-  <div v-if="isSimplePost">
+
+  <template v-if="isSimplePost">
     <PagePostsHeader :isSimple="isSimplePost" :postTitle="post.Title"/>
     <PagePostsStats :createdAt="post.CreatedAt"/>
-  </div>
+  </template>
 
-  <div v-else class="callout callout-danger mb-2">
-    <PagePostsHeader :postTitle="post.Title" :postDescription="post.Title"/>
-    <PagePostsStats :createdAt="post.CreatedAt" :isReadMore="!isSimplePost"/>
-  </div>
+  <template v-else>
+    <div class="callout callout-danger mb-2">
+      <PagePostsHeader :postTitle="post.Title" :postDescription="post.Title"/>
+      <PagePostsStats :createdAt="post.CreatedAt" :isReadMore="!isSimplePost"/>
+    </div>
+  </template>
+
 </template>
 
 <script>
