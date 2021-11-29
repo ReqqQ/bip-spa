@@ -1,33 +1,34 @@
 <template>
   <PageZonePosts
       :posts="posts"
-      :postsType="postsType"
+      :postsLayout="postsLayout"
       :boxTitle="boxTitle"
-      :isSimple="isSimple"
-      v-if="posts"/>
+      :postsCategory="postsCategory"
+      v-if="posts" >
+  </PageZonePosts>
 
 <!--  <PageZoneEmployess :employess="employess" v-if="employess"/>-->
 
 </template>
 
-<script>
+<script lang="ts">
 export default {
   name: "index",
   props: {
     posts: Object,
     employess: Object,
-    postsType: {
+    postsLayout: {
+      type: String,
+      default: null
+    },
+    postsCategory: {
       type: String,
       default: null
     },
     boxTitle: {
       type: String,
       default: null
-    },
-    isSimple: {
-      type: Boolean,
-      default: false
-    },
+    }
   },
   data: () => ({
     logoImage:{

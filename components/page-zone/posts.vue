@@ -1,23 +1,18 @@
 <template>
-    <div v-if="isSimple" class="col-6">
-<!--      <div v-if="posts[postsType]" class="bg-white ls-border-radius ls h-100">-->
-<!--        <PagePostsHeader :boxTitle="boxTitle"/>-->
-<!--        <PagePosts  v-for="post in posts[postsType].slice(0,5)" :key="post.ID" :post="post" :isSimplePost="true"/>-->
-<!--      </div>-->
-    </div>
-
-    <div v-else  class="col-6 px-5 d-flex mb-1 flex-column justify-content-between">
-      <PagePosts v-for="post in posts[postsType]" :key="post.ID" :post="post"/>
-    </div>
-
+  <component
+      :posts="posts"
+      :postsCategory="postsCategory"
+      :boxTitle="boxTitle"
+      :is="postsLayout"
+  />
 </template>
 
-<script>
+<script lang="ts">
 export default {
-  name: "posts",
+  name: "pagePosts",
   props: {
     posts: Object,
-    postsType: {
+    postsLayout: {
       type: String,
       default: null
     },
@@ -25,14 +20,10 @@ export default {
       type: String,
       default: null
     },
-    isSimple: {
-      type: Boolean,
-      default: false
+    postsCategory: {
+      type: String,
+      default: null
     },
   },
 }
 </script>
-
-<style scoped>
-
-</style>
