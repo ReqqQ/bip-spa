@@ -1,17 +1,29 @@
 <template>
   <div class="col-6">
     <div class="bg-white ls-border-radius ls h-100">
-      <PagePostsHeader :boxTitle="boxTitle"/>
-<!--      <PagePosts v-for="post in posts[postsType]" :key="post.ID" :post="post" :isSimplePost="true"/>-->
-      <PagePostsHeader :isSimple="isSimplePost" :postTitle="post.Title"/>
-      <PagePostsStats :createdAt="post.CreatedAt"/>
+      <PagePostsSectorHeader :boxTitle="boxTitle"/>
+      <div v-for="post in posts[postsCategory]" :key="post.ID" class="px-3 py-2">
+        <PagePostsSectorHeader :isSimple="true" :postTitle="post.Title"/>
+        <PagePostsSectorStats :createdAt="post.CreatedAt" :isReadMore="false"/>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "simple"
+  name: "simple",
+  props: {
+    posts: Object,
+    boxTitle: {
+      type: String,
+      default: null
+    },
+    postsCategory: {
+      type: String,
+      default: null
+    }
+  },
 }
 </script>
 

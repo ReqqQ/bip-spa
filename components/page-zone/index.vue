@@ -7,7 +7,7 @@
       v-if="posts" >
   </PageZonePosts>
 
-<!--  <PageZoneEmployess :employess="employess" v-if="employess"/>-->
+  <PageZoneEmployess :employess="employess" v-if="employess"/>
 
 </template>
 

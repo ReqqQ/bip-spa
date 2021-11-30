@@ -7,12 +7,12 @@
     <list default="true" id="8de86697-adc0-44b7-84f0-994e656a80dc" name="Changes" comment="refactor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Sidebar/Right.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Sidebar/Right.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/page-posts/header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/page-posts/sector/header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/page-posts/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/page-posts/stats.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/page-posts/sector/stats.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page-posts/layout/simple.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/page-posts/layout/simple.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page-posts/sector/stats.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/page-posts/sector/stats.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page-zone/employess.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/page-zone/employess.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/page-zone/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/page-zone/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/page-zone/posts.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/page-zone/posts.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/consts/stats-icon.ts" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/consts/stats-icon.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="tv.twelvetone.intellij.plugins.intellivue.preferences.IntellivueConfigurable" />
     <property name="ts.external.directory.path" value="D:\WebStorm 2021.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -88,7 +88,8 @@
       <workItem from="1638109998924" duration="7128000" />
       <workItem from="1638123343106" duration="594000" />
       <workItem from="1638142101816" duration="5754000" />
-      <workItem from="1638200651585" duration="12144000" />
+      <workItem from="1638200651585" duration="18513000" />
+      <workItem from="1638231589958" duration="1793000" />
     </task>
     <task id="LOCAL-00001" summary="refactor">
       <created>1637959539756</created>
@@ -132,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638117176588</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="refactor">
+      <created>1638214093706</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1638214093706</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
