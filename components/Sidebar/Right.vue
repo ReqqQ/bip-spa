@@ -6,7 +6,7 @@
       <PageZone postsLayout="PagePostsLayoutSimple" postsCategory="work" :posts="posts" boxTitle="Praca"/>
     </div>
     <div class="row flex-grow-1">
-      <PageZone :employess="{}"/>
+      <PageZone :employess="employess"/>
     </div>
   </div>
 </template>
@@ -34,6 +34,9 @@ export default {
         }
       ],
       componentClass: 'bg-white ls-border-radius ls d-flex justify-content-around p-3'
+    },
+    employess:{
+      componentClass:'bg-white ls-border-radius ls h-100'
     }
   }),
   props: {

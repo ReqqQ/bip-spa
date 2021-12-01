@@ -1,11 +1,7 @@
 <template>
-  <div class="bg-white ls-border-radius ls h-100">
+  <div :class="employess.componentClass">
     <div class="row  h-100">
-      <div class="d-flex flex-column col-3 justify-content-center" v-for="x in 4">
         <Image :images="logoImage" />
-        <span class="text-center">User Name</span>
-        <span class="text-center">Stanowisko</span>
-      </div>
     </div>
   </div>
 </template>
@@ -17,14 +13,34 @@ export default {
     logoImage:{
       images:[
         {
-          src: './assets/img/default-user.png',
-          width:'150px',
-          alt:'default-user'
+          src: './assets/img/employess/person-1.jpg',
+          width:'250px',
+          alt:'default-user',
+          title:'User Name',
+          description:'Stanowisko'
+        },
+        {
+          src: './assets/img/employess/person-2.jpg',
+          width:'250px',
+          alt:'default-user',
+          title:'User Name',
+          description:'Stanowisko'
+        },
+        {
+          src: './assets/img/employess/person-2.jpg',
+          width:'250px',
+          alt:'default-user',
+          title:'User Name',
+          description:'Stanowisko'
         }
       ],
-      componentClass:'flex-grow-0 h-50 d-flex align-items-center justify-content-center'
+      componentClass: 'col-12 d-flex justify-content-around employee-img py-3',
+      hasDescriptions:true
     }
-  })
+  }),
+  props: {
+    employess: Object
+  }
 }
 </script>
 

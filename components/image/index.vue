@@ -1,11 +1,17 @@
 <template>
-  <div :class=images.componentClass>
-    <img v-for="(image,imageId) in images.images"
-         :key="imageId"
-         :width="image.width"
-         :src=image.src
-         class="img-fluid"
-         :alt="image.alt">
+  <div :class="images.componentClass">
+    <div v-for="(image,imageId) in images.images"
+         :key="imageId">
+      <img
+          :width="image.width"
+          :src=image.src
+          :height="images.hasDescriptions ? image.width :''"
+          :alt="image.alt">
+      <span v-if="images.hasDescriptions" class="d-flex flex-column">
+          <span class="text-center">User Name</span>
+          <span class="text-center">Stanowisko</span>
+    </span>
+    </div>
   </div>
 </template>
 
@@ -17,3 +23,8 @@ export default {
   }
 }
 </script>
+<style scoped>
+.employee-img img {
+  object-fit: cover;
+}
+</style>
