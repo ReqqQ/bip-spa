@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid vh-100 m-background">
-        <div class="row h-100 p-2">
-            <LeftSidebar class="col-1 bg-white ls-border-radius ls"/>
+        <div class="row h-100">
+            <SidebarLeft class="col-1 bg-white ls"/>
             <div class="col-11">
                 <slot/>
             </div>
@@ -14,15 +14,21 @@ export default {
     name: "default"
 }
 </script>
-
-<style scoped>
-.ls{
-    box-shadow: 0 0 30px #147AFF1A;
+<style>
+.ls {
+    box-shadow: 0 0 20px 0px #c5d2e3
 }
+
 .ls-border-radius {
     border-radius: 24px;
 }
+body{
+    font-family: 'Sofia Pro';
+}
+</style>
+<style scoped>
+
 .m-background {
-    background-color: #1479FF1a;
+    background-color: #f8fbff;
 }
 </style>
