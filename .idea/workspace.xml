@@ -7,12 +7,8 @@
     <list default="true" id="8de86697-adc0-44b7-84f0-994e656a80dc" name="Changes" comment="refactor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Sidebar/Right.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Sidebar/Right.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/page-posts/layout/simple.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/page-posts/layout/simple.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/page-posts/sector/stats.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/page-posts/sector/stats.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/image/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/image/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/page-zone/employess.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/page-zone/employess.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/page-zone/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/page-zone/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/consts/stats-icon.ts" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/consts/stats-icon.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +46,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cookie-spa" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -62,11 +58,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\bip-spa\assets\img" />
+      <recent name="E:\bip-spa\assets\departments" />
       <recent name="E:\bip-spa\components\page-posts\layout" />
       <recent name="E:\bip-spa\components\page-posts\sector" />
       <recent name="E:\bip-spa\layouts" />
-      <recent name="E:\bip-spa\layouts\posts" />
-      <recent name="E:\bip-spa\components\page-zone" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -89,7 +85,10 @@
       <workItem from="1638123343106" duration="594000" />
       <workItem from="1638142101816" duration="5754000" />
       <workItem from="1638200651585" duration="18513000" />
-      <workItem from="1638231589958" duration="1793000" />
+      <workItem from="1638231589958" duration="1913000" />
+      <workItem from="1638310486010" duration="4573000" />
+      <workItem from="1638319555664" duration="1497000" />
+      <workItem from="1638374542282" duration="2581000" />
     </task>
     <task id="LOCAL-00001" summary="refactor">
       <created>1637959539756</created>
@@ -140,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638214093706</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="refactor">
+      <created>1638234209398</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1638234209398</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
