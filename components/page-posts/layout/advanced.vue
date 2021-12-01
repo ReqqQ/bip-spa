@@ -1,5 +1,5 @@
 <template>
-  <div class="col-6 px-5 d-flex mb-1 flex-column justify-content-between">
+  <div class="col-sm-6 col-12 px-sm-5 px-2 d-flex mb-sm-1 mb-0 flex-column justify-content-between">
     <div v-for="post in posts[postsCategory]" :key="post.ID" class="callout callout-danger mb-2">
       <PagePostsSectorHeader :postTitle="post.Title" :postDescription="post.Title"/>
       <PagePostsSectorStats :createdAt="post.CreatedAt" :isReadMore="true"/>

@@ -1,7 +1,7 @@
 <template>
-    <div class="row h-100 pt-5 pe-4">
+    <div class="row h-100 pt-2 pt-sm-5 pe-4">
       <PageZone  boxTitle="Zamówienia publiczne" postsLayout="PagePostsLayoutAdvanced" postsCategory="news" :posts="posts"/>
-      <SidebarRight :posts="posts" class="col-6"/>
+      <SidebarRight :posts="posts" class="col-12 col-sm-6"/>
     </div>
 </template>
 

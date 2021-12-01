@@ -14,7 +14,7 @@ export default {
       images:[
         {
           src: './assets/img/employess/person-1.jpg',
-          width:'250px',
+          width:'260px',
           alt:'default-user',
           title:'User Name',
           description:'Stanowisko'

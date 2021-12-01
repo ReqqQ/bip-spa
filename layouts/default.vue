@@ -1,8 +1,8 @@
 <template>
     <div class="container-fluid vh-100 m-background">
         <div class="row h-100">
-            <SidebarLeft class="col-1 bg-white ls"/>
-            <div class="col-11">
+            <SidebarLeft class="col-sm-1 d-none d-sm-block bg-white ls"/>
+            <div class="col-12 col-sm-11">
                 <slot/>
             </div>
         </div>
