@@ -1,11 +1,15 @@
 <template>
   <div class="d-flex flex-column">
-    <Image class="flex-grow-0" :images="departmentsImages"/>
-    <div class="row  pt-4 pb-4 flex-grow-0">
+    <div class="row flex-grow-0">
+      <div class="col-12">
+        <Image :images="departmentsImages"/>
+      </div>
+    </div>
+    <div class="row flex-grow-1">
       <PageZone postsLayout="PagePostsLayoutSimple" postsCategory="zam" :posts="posts" boxTitle="Zamówienia publiczne"/>
       <PageZone postsLayout="PagePostsLayoutSimple" postsCategory="work" :posts="posts" boxTitle="Praca"/>
     </div>
-    <div class="row flex-grow-1">
+    <div class="row flex-grow-0 mt-3 mt-lg-0">
       <PageZone :employess="employess"/>
     </div>
   </div>
@@ -33,10 +37,10 @@ export default {
           alt: 'bip'
         }
       ],
-      componentClass: 'bg-white ls-border-radius ls d-flex justify-content-around p-3'
+      componentClass: 'bg-white ls-border-radius ls d-flex flex-md-row align-items-center flex-column justify-content-around'
     },
-    employess:{
-      componentClass:'bg-white ls-border-radius ls h-100'
+    employess: {
+      componentClass: 'bg-white ls-border-radius ls h-100'
     }
   }),
   props: {

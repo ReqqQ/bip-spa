@@ -1,9 +1,7 @@
 <template>
-  <div :class="employess.componentClass">
-    <div class="row  h-100">
-        <Image :images="logoImage" />
-    </div>
-  </div>
+      <div class="col-12">
+        <Image :images="logoImage" :class="employess.componentClass" />
+      </div>
 </template>
 
 <script>
@@ -32,9 +30,16 @@ export default {
           alt:'default-user',
           title:'User Name',
           description:'Stanowisko'
+        },
+        {
+          src: './assets/img/employess/person-1.jpg',
+          width:'260px',
+          alt:'default-user',
+          title:'User Name',
+          description:'Stanowisko'
         }
       ],
-      componentClass: 'col-12 d-flex justify-content-around employee-img py-3',
+      componentClass: 'd-flex flex-wrap employee-img py-3 justify-content-center gap-sm-4',
       hasDescriptions:true
     }
   }),

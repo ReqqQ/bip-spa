@@ -1,10 +1,10 @@
 <template>
   <div :class="images.componentClass">
     <div v-for="(image,imageId) in images.images"
-         :key="imageId">
-      <img :width="image.width"
+         :key="imageId" >
+      <img
           :src=image.src
-          :alt="image.alt" class="image">
+          :alt="image.alt" class="image img-fluid">
       <span v-if="images.hasDescriptions" class="d-flex flex-column">
           <span class="text-center">User Name</span>
           <span class="text-center">Stanowisko</span>
@@ -23,7 +23,9 @@ export default {
 </script>
 <style scoped>
 .employee-img img {
-  object-fit: cover;
+  /*object-fit: cover;*/
+  width: 1em;
+  height: 1em;
 }
 .image{
   max-width: 100%;

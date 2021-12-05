@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8de86697-adc0-44b7-84f0-994e656a80dc" name="Changes" comment="[home-page] - fix img component to employess">
+    <list default="true" id="8de86697-adc0-44b7-84f0-994e656a80dc" name="Changes" comment="[home-page] - add RWD to mobile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/employess/person-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/employess/person-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Sidebar/Right.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Sidebar/Right.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/image/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/image/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/page-posts/layout/advanced.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/page-posts/layout/advanced.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/page-posts/layout/simple.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/page-posts/layout/simple.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page-posts/sector/stats.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/page-posts/sector/stats.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page-zone/employess.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/page-zone/employess.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/default.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/consts/stats-icon.ts" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/consts/stats-icon.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +103,12 @@
       <workItem from="1638231589958" duration="1913000" />
       <workItem from="1638310486010" duration="4573000" />
       <workItem from="1638319555664" duration="1497000" />
-      <workItem from="1638374542282" duration="5843000" />
+      <workItem from="1638374542282" duration="7326000" />
+      <workItem from="1638463348630" duration="1782000" />
+      <workItem from="1638485059048" duration="5231000" />
+      <workItem from="1638563354939" duration="531000" />
+      <workItem from="1638630985213" duration="10872000" />
+      <workItem from="1638704271829" duration="10585000" />
     </task>
     <task id="LOCAL-00001" summary="refactor">
       <created>1637959539756</created>
@@ -163,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638377233694</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="[home-page] - add RWD to mobile">
+      <created>1638386507440</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1638386507440</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +201,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactor" />
     <MESSAGE value="[home-page] - fix img component to employess" />
-    <option name="LAST_COMMIT_MESSAGE" value="[home-page] - fix img component to employess" />
+    <MESSAGE value="[home-page] - add RWD to mobile" />
+    <option name="LAST_COMMIT_MESSAGE" value="[home-page] - add RWD to mobile" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

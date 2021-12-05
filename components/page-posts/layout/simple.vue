@@ -1,5 +1,5 @@
 <template>
-  <div class="col-sm-6 col-12 pb-4 pb-sm-0">
+  <div class="col-lg-6 col-12 mt-3 mt-lg-0">
     <div class="bg-white ls-border-radius ls h-100">
       <PagePostsSectorHeader :boxTitle="boxTitle"/>
       <div v-for="post in posts[postsCategory]" :key="post.ID" class="px-3 py-2">
