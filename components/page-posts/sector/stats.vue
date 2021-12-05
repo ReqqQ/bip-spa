@@ -30,7 +30,7 @@ export default {
 </script>
 
 <style scoped>
-@media (min-width: 0px) and (max-width: 375px) {
+@media (min-width: 0px) and (max-width: 425px) {
   .d-flex-xs-column{
     flex-direction: column;
   }

@@ -24,8 +24,8 @@ export default {
 <style scoped>
 .employee-img img {
   /*object-fit: cover;*/
-  width: 1em;
-  height: 1em;
+  width: 11em;
+  height: 11em;
 }
 .image{
   max-width: 100%;
