@@ -1,17 +1,23 @@
 <template>
-  <div class="col-6 px-5 d-flex mb-1 flex-column justify-content-between">
-    <div v-for="post in posts[postsCategory]" :key="post.ID" class="callout callout-danger mb-2">
-      <PagePostsSectorHeader :postTitle="post.Title" :postDescription="post.Title"/>
-      <PagePostsSectorStats :createdAt="post.CreatedAt" :isReadMore="true"/>
+  <div class="col-12 col-xl-6 d-flex flex-column justify-content-flex-start justify-content-xxl-between" ref="advancedPostsBox">
+    <div v-if="posts[postsCategory]" v-for="(post,postIndex) in posts[postsCategory]" :key="post.ID" class="callout callout-danger" :class="getPostsClassLayout(postIndex)" >
+      <PagePostsSectorHeader :postTitle="post.title" :postDescription="post.title"/>
+      <PagePostsSectorStats :createdAt="post.created_at" :isReadMore="true"/>
     </div>
   </div>
 </template>
 
-<script>
+<script lang="ts">
+
+import {calculateCellHeight} from "table/dist/src/calculateCellHeight";
+
 export default {
   name: "advanced",
   props: {
-    posts: Object,
+    posts: {
+      type: Object,
+      default: []
+    },
     postsLayout: {
       type: String,
       default: null
@@ -25,6 +31,32 @@ export default {
       default: null
     }
   },
+  updated() {
+    if(!this.isCalculated){
+      this.calculatePostsCount()
+    }
+  },
+  methods: {
+    getPostsClassLayout(postIndex: Number) {
+      let advancedClass = 'advanced-post-'+postIndex
+      return 'mb-2 ' + advancedClass
+    },
+    calculatePostsCount() {
+      let postsBoxHeight = window.innerHeight
+      let postHeight = this.$el.getElementsByClassName('advanced-post-0').item(0).clientHeight
+
+      console.log([
+          postHeight,
+          window.innerHeight
+      ])
+      let postsCount = Math.floor(postsBoxHeight / postHeight);
+      this.posts[this.postsCategory] = this.posts[this.postsCategory].slice(0, postsCount)
+      this.isCalculated = true;
+    }
+  },
+  data: () => ({
+    isCalculated: false
+  }),
 }
 </script>
 

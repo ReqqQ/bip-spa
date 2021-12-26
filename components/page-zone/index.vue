@@ -8,7 +8,7 @@
   </PageZonePosts>
 
   <PageZoneEmployess :employess="employess" v-if="employess"/>
-
+  <PageZoneDepartments :departments="departments" v-if="departments"/>
 </template>
 
 <script lang="ts">
@@ -16,6 +16,7 @@ export default {
   name: "index",
   props: {
     posts: Object,
+    departments: Boolean,
     employess: Object,
     postsLayout: {
       type: String,

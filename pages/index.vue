@@ -1,7 +1,7 @@
 <template>
-    <div class="row h-100 pt-5 pe-4">
+    <div class="row h-100 px-0 px-sm-2 py-3">
       <PageZone  boxTitle="Zamówienia publiczne" postsLayout="PagePostsLayoutAdvanced" postsCategory="news" :posts="posts"/>
-      <SidebarRight :posts="posts" class="col-6"/>
+      <SidebarRight :posts="posts" class="col-12 col-xl-6 mt-3 mt-xl-0"/>
     </div>
 </template>
 
@@ -18,21 +18,14 @@ export default {
     methods: {
         async getPosts() {
             const params = new URLSearchParams()
-            params.append('categoryPosts', 'news')
-            params.append('categoryPosts', 'zam')
-            params.append('categoryPosts', 'work')
-            params.append('isGroupByCategory', '1')
+            params.append('categoryPosts', 'news,zam,work')
 
             const {data} = await $fetch('posts?' + params.toString(), {
                 method: 'GET',
-                baseURL: 'http://localhost:8080/api/'
+                baseURL: 'http://localhost:8000/api/'
             })
             this.posts = data
         },
     },
 }
 </script>
-
-<style scoped>
-
-</style>
