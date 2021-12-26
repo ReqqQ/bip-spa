@@ -1,7 +1,7 @@
 <template>
-    <div class="d-flex flex-column ">
+    <div class=" d-none d-lg-flex align-items-center bg-white ls flex-column">
         <Image :images="logoImage" />
-        <div class="d-flex h-50 flex-column justify-content-evenly align-items-center">
+        <div class="d-flex sticky-menu flex-column justify-content-evenly align-items-center">
             <NuxtLink to="/"> <i class="bi bi-list  ls-icon-active"/></NuxtLink>
             <NuxtLink to="/search">  <i class="bi bi-search ls-icon"/></NuxtLink>
 
@@ -25,13 +25,31 @@ export default {
           alt:'bip'
         }
       ],
-      componentClass:'flex-grow-0 h-25 d-flex align-items-center justify-content-center'
+      componentClass:'my-4'
     }
   })
 }
 </script>
 
 <style scoped lang="scss">
+@media screen and (min-width: 992px) {
+  .h-lg-25 {
+    height: 25%!important;
+  }
+  .h-lg-0 {
+    height: auto!important;
+  }
+  .sticky-menu{
+    position: fixed;
+    top: 25%;
+    height: 50%!important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .h-xl-50 {
+    height: 50%!important;
+  }
+}
 .ls-icon{
     font-size: 1.5em;
     color: white;

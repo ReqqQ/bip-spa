@@ -6,8 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="8de86697-adc0-44b7-84f0-994e656a80dc" name="Changes" comment="[home-page] - add RWD to mobile / pc">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Sidebar/Left.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Sidebar/Left.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Sidebar/Right.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Sidebar/Right.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/image/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/image/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/sidebar/Right.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/sidebar/Right.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page-posts/layout/advanced.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/page-posts/layout/advanced.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page-posts/layout/simple.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/page-posts/layout/simple.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page-zone/employess.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/page-zone/employess.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/page-zone/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/page-zone/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/default.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/search.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/search.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +62,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -64,6 +73,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\bip-spa\assets\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\bip-spa\assets\img" />
       <recent name="E:\bip-spa\assets\departments" />
@@ -100,7 +112,33 @@
       <workItem from="1638485059048" duration="5231000" />
       <workItem from="1638563354939" duration="531000" />
       <workItem from="1638630985213" duration="10872000" />
-      <workItem from="1638704271829" duration="11349000" />
+      <workItem from="1638704271829" duration="12236000" />
+      <workItem from="1638748432025" duration="3300000" />
+      <workItem from="1638816718016" duration="62000" />
+      <workItem from="1638917308171" duration="44000" />
+      <workItem from="1639001117736" duration="595000" />
+      <workItem from="1639072196924" duration="10000" />
+      <workItem from="1639163876251" duration="1697000" />
+      <workItem from="1639188103760" duration="689000" />
+      <workItem from="1639189815238" duration="659000" />
+      <workItem from="1639245107564" duration="125000" />
+      <workItem from="1639245308246" duration="9815000" />
+      <workItem from="1639276918303" duration="585000" />
+      <workItem from="1639277933705" duration="764000" />
+      <workItem from="1639327874938" duration="11981000" />
+      <workItem from="1639405710716" duration="1134000" />
+      <workItem from="1639423241829" duration="258000" />
+      <workItem from="1639506661952" duration="2471000" />
+      <workItem from="1639599559533" duration="4000" />
+      <workItem from="1639675328818" duration="774000" />
+      <workItem from="1639937270150" duration="594000" />
+      <workItem from="1640203264475" duration="3658000" />
+      <workItem from="1640211684220" duration="113000" />
+      <workItem from="1640212055627" duration="880000" />
+      <workItem from="1640299809119" duration="1272000" />
+      <workItem from="1640349954950" duration="1968000" />
+      <workItem from="1640451059576" duration="3583000" />
+      <workItem from="1640533496001" duration="5386000" />
     </task>
     <task id="LOCAL-00001" summary="refactor">
       <created>1637959539756</created>
@@ -179,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638722333683</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="[home-page] - add RWD to mobile / pc">
+      <created>1638723232663</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1638723232663</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

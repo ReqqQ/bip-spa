@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid vh-100 m-background">
         <div class="row h-100">
-            <SidebarLeft class="col-md-2 col-lg-1 d-none d-lg-block bg-white ls"/>
+            <SidebarLeft class="col-md-2 col-lg-1"/>
             <div class="col-12 col-lg-11">
                 <slot/>
             </div>
@@ -11,7 +11,7 @@
 
 <script>
 export default {
-    name: "default"
+    name: "default",
 }
 </script>
 <style>

@@ -18,21 +18,14 @@ export default {
     methods: {
         async getPosts() {
             const params = new URLSearchParams()
-            params.append('categoryPosts', 'news')
-            params.append('categoryPosts', 'zam')
-            params.append('categoryPosts', 'work')
-            params.append('isGroupByCategory', '1')
+            params.append('categoryPosts', 'news,zam,work')
 
             const {data} = await $fetch('posts?' + params.toString(), {
                 method: 'GET',
-                baseURL: 'http://localhost:8080/api/'
+                baseURL: 'http://localhost:8000/api/'
             })
             this.posts = data
         },
     },
 }
 </script>
-
-<style scoped>
-
-</style>
