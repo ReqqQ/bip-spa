@@ -3,6 +3,8 @@
       :posts="posts"
       :postsCategory="postsCategory"
       :boxTitle="boxTitle"
+      :color ="color"
+      :background="background"
       :is="postsLayout"
   />
 </template>
@@ -24,6 +26,14 @@ export default {
       type: String,
       default: null
     },
+      color: {
+          type: String,
+          default: ""
+      },
+      background: {
+          type: String,
+          default: ""
+      }
   },
 }
 </script>

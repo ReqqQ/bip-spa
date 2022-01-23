@@ -26,7 +26,7 @@ export default {
           alt: 'bip'
         }
       ],
-      componentClass: 'bg-white ls-border-radius ls d-flex flex-md-row align-items-center flex-column justify-content-around p-3'
+      componentClass: 'd-flex flex-md-row align-items-center flex-column justify-content-around p-3'
     },
   })
 }

@@ -23,5 +23,9 @@ export default defineNuxtConfig({
                 href: 'http://fonts.cdnfonts.com/css/sofia-pro'
             }
         ],
+        script: [
+            { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' },
+            { src :'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js'}
+],
     },
 })

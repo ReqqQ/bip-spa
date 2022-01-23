@@ -1,7 +1,10 @@
 <template>
-      <div class="col-12">
-        <Image :images="logoImage" :class="employess.componentClass" />
-      </div>
+  <div class="col-xxl-12 col-xl-12 col-12 col-sm-6 mt-3 mt-lg-0 pb-2">
+    <div class="simple-posts-title  ls-border-radius h-100">
+      <PagePostsSectorHeader :boxTitle="boxTitle"/>
+      <Image :images="logoImage" :class="employess.componentClass" />
+    </div>
+  </div>
 </template>
 
 <script>
@@ -44,7 +47,17 @@ export default {
     }
   }),
   props: {
-    employess: Object
+    employess: Object,
+    boxTitle: {
+      type: String,
+      default: null
+    }
   }
 }
 </script>
+<style scoped>
+.simple-posts-title{
+  background: #ffe8e8;
+  box-shadow: inset 0 20px 20px 6px #0000000f;
+}
+</style>
