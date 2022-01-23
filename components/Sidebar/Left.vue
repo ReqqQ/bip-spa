@@ -4,10 +4,9 @@
         <div class="d-flex sticky-menu flex-column justify-content-evenly align-items-center">
             <NuxtLink to="/"> <i class="bi bi-list  ls-icon"/></NuxtLink>
             <NuxtLink to="/search">  <i class="bi bi-search ls-icon"/></NuxtLink>
-
-            <i class="bi bi-book ls-icon"/>
-            <i class="bi bi-envelope ls-icon"/>
-            <i class="bi bi-info-circle ls-icon"/>
+            <NuxtLink to="/categories">  <i class="bi bi-book ls-icon"/></NuxtLink>
+            <NuxtLink to="/form">  <i class="bi bi-envelope ls-icon"/></NuxtLink>
+            <NuxtLink to="/help">  <i class="bi bi-info-circle ls-icon"/></NuxtLink>
         </div>
 
     </div>

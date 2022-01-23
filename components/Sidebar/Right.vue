@@ -4,11 +4,11 @@
       <PageZone :departments="departments"/>
     </div>
     <div class="row flex-grow-1 posts-gap">
-      <PageZone postsLayout="PagePostsLayoutSimple" postsCategory="zam" :posts="posts" boxTitle="Zamówienia publiczne"/>
-      <PageZone postsLayout="PagePostsLayoutSimple" postsCategory="work" :posts="posts" boxTitle="Praca"/>
+      <PageZone postsLayout="PagePostsLayoutSimple" color="blue" background="bg-blue" postsCategory="zam" :posts="posts" boxTitle="Zamówienia publiczne"/>
+      <PageZone postsLayout="PagePostsLayoutSimple" color="blue" background="bg-blue" postsCategory="work" :posts="posts" boxTitle="Praca"/>
     </div>
     <div class="row flex-grow-0 mt-3 mt-lg-0">
-      <PageZone :employess="employess"/>
+      <PageZone boxTitle="Pracownicy" color="blue" background="bg-blue" :employess="employess"/>
     </div>
   </div>
 </template>
@@ -19,7 +19,7 @@ export default {
   data: () => ({
     departments:true,
     employess: {
-      componentClass: 'bg-white ls-border-radius ls'
+      componentClass: ''
     }
   }),
   props: {
